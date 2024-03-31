@@ -234,7 +234,7 @@ body {
   left: 0;
   width: 0;
   height: 100%;
-  background: yellowgreen;
+  background: white;
   z-index: -1;
   transition: 0.5s;
 }
@@ -252,7 +252,7 @@ body {
   height: 100%;
   background: #081b29;
   animation: showRight 1s ease forwards;
-  animation-delay: 2.5s;
+  animation-delay: 1.3s;
   z-index: 2;
 }
 
