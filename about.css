@@ -92,6 +92,7 @@ body {
 }
 .home-content {
   max-width: 660px;
+  height: 300px;
   text-align: center;
 }
 .home-content h1 {
@@ -114,8 +115,10 @@ body {
 
 .home-content p {
   position: relative;
-  display: flex;
+  text-align: center;
+  /* display: flex;
   justify-content: center;
+  flex-direction: column; */
   font-size: 16px;
   margin: 20px;
 }
@@ -133,7 +136,7 @@ body {
 }
 .home-sci {
   position: absolute;
-  bottom: 150px;
+  bottom: 170px;
   width: 170px;
   display: flex;
   justify-content: space-between;
@@ -189,6 +192,14 @@ body {
   z-index: 2;
 }
 
+.celerates {
+  color: orange;
+  text-decoration: none;
+}
+.project {
+  color: yellowgreen;
+  text-decoration: none;
+}
 /* KEYFRAMES ANIMATION */
 @keyframes showRight {
   100% {

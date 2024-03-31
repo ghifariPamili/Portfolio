@@ -284,6 +284,10 @@ body {
   z-index: 100;
 }
 
+.celerates {
+  color: orange;
+  text-decoration: none;
+}
 /* KEYFRAMES ANIMATION */
 @keyframes showRight {
   100% {
